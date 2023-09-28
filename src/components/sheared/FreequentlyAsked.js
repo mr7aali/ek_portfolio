@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const FreequentlyAsked = () => {
@@ -85,7 +86,7 @@ const FreequentlyAsked = () => {
 				<div class="section__image">
 
 
-					<img
+					<Image
 						width="162"
 						height="152"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer1-1.png"
@@ -96,7 +97,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer1-1.png 162w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer1-1-149x140.png 149w"
 						sizes="(max-width: 162px) 100vw, 162px"
 					/>
-					<img
+					<Image
 						width="100"
 						height="123"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer2-1.png"
@@ -105,7 +106,7 @@ const FreequentlyAsked = () => {
 						decoding="async"
 						loading="lazy"
 					/>
-					<img
+					<Image
 						width="170"
 						height="173"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer3-1.png"
@@ -116,7 +117,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer3-1.png 170w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer3-1-138x140.png 138w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer3-1-152x155.png 152w"
 						sizes="(max-width: 170px) 100vw, 170px"
 					/>
-					<img
+					<Image
 						width="168"
 						height="168"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer4-1.png"
@@ -127,7 +128,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer4-1.png 168w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer4-1-165x165.png 165w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer4-1-140x140.png 140w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer4-1-155x155.png 155w"
 						sizes="(max-width: 168px) 100vw, 168px"
 					/>
-					<img
+					<Image
 						width="60"
 						height="162"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer5-1.png"
@@ -138,7 +139,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer5-1.png 60w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer5-1-52x140.png 52w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer5-1-57x155.png 57w"
 						sizes="(max-width: 60px) 100vw, 60px"
 					/>
-					<img
+					<Image
 						width="182"
 						height="182"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1.png"
@@ -149,7 +150,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1.png 182w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1-165x165.png 165w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1-140x140.png 140w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1-177x177.png 177w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer6-1-155x155.png 155w"
 						sizes="(max-width: 182px) 100vw, 182px"
 					/>
-					<img
+					<Image
 						width="235"
 						height="120"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer7-1-235x120.png"
@@ -160,7 +161,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer7-1.png 235w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer7-1-221x113.png 221w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer7-1-174x89.png 174w"
 						sizes="(max-width: 235px) 100vw, 235px"
 					/>
-					<img
+					<Image
 						width="63"
 						height="190"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer8-1-63x190.png"
@@ -171,7 +172,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer8-1.png 63w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer8-1-46x140.png 46w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer8-1-51x155.png 51w"
 						sizes="(max-width: 63px) 100vw, 63px"
 					/>
-					<img
+					<Image
 						width="181"
 						height="173"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer9-1.png"
@@ -182,7 +183,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer9-1.png 181w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer9-1-146x140.png 146w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer9-1-162x155.png 162w"
 						sizes="(max-width: 181px) 100vw, 181px"
 					/>
-					<img
+					<Image
 						width="158"
 						height="158"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer10-1.png"
@@ -193,7 +194,7 @@ const FreequentlyAsked = () => {
 						srcSet="https://www.kasradesign.com/wp-content/uploads/2017/11/layer10-1.png 158w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer10-1-140x140.png 140w, https://www.kasradesign.com/wp-content/uploads/2017/11/layer10-1-155x155.png 155w"
 						sizes="(max-width: 158px) 100vw, 158px"
 					/>
-					<img
+					<Image
 						width="160"
 						height="116"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer11-1.png"
@@ -202,7 +203,7 @@ const FreequentlyAsked = () => {
 						decoding="async"
 						loading="lazy"
 					/>
-					<img
+					<Image
 						width="86"
 						height="167"
 						src="https://www.kasradesign.com/wp-content/uploads/2017/11/layer12-1.png"

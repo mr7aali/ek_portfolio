@@ -1,17 +1,18 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Description = () => {
     return (
-        <section class="section-module section-module--features">
-            <div class="section-module__row">
-                <div class="section__content-left" style={{backgroundColor: "#383838", color: "#ffffff"}}>
-                    <div class="section__content-inner">
-                        <div class="list-features">
+        <section style={{border:'10px solid red'}} className="section-module section-module--features">
+            <div className="section-module__row">
+                <div className="section__content-left" style={{backgroundColor: "#383838", color: "#ffffff"}}>
+                    <div className="section__content-inner">
+                        <div className="list-features">
                             <ul>
                                 <li>
-                                    <h4 class="h3">Any Time Zone</h4>
+                                    <h4 className="h3">Any Time Zone</h4>
 
-                                    <img
+                                    <Image
                                         width="284"
                                         height="177"
                                         src="https://www.kasradesign.com/wp-content/uploads/2017/11/image-clocks.png"
@@ -27,9 +28,9 @@ const Description = () => {
                                     <p>We’re available around the clock to attend to your needs, any time of day. Wherever you are, whenever you are, we are ready for you!</p>
                                 </li>
                                 <li>
-                                    <h4 class="h3">Any Language</h4>
+                                    <h4 className="h3">Any Language</h4>
 
-                                    <img
+                                    <Image
                                         width="284"
                                         height="177"
                                         src="https://www.kasradesign.com/wp-content/uploads/2017/11/image-tv.png"
@@ -53,14 +54,14 @@ const Description = () => {
                     {/* <!-- /.section__content-inner --> */}
                 </div>
                 {/* <!-- /.section__content-right --> */}
-                <div class="section__content-right" style={{backgroundColor: "#fdd048", color: "#383838"}}>
-                    <div class="section__content-inner">
-                        <div class="list-features">
+                <div className="section__content-right" style={{backgroundColor: "#fdd048", color: "#383838"}}>
+                    <div className="section__content-inner">
+                        <div className="list-features">
                             <ul>
                                 <li>
-                                    <h4 class="h3">Win The Game</h4>
+                                    <h4 className="h3">Win The Game</h4>
 
-                                    <img
+                                    <Image
                                         width="284"
                                         height="177"
                                         src="https://www.kasradesign.com/wp-content/uploads/2017/11/image-fight.png"
@@ -76,9 +77,9 @@ const Description = () => {
                                     <p>A quality video can go a long way in a short period of time.</p>
                                 </li>
                                 <li>
-                                    <h4 class="h3">Customer Rocks</h4>
+                                    <h4 className="h3">Customer Rocks</h4>
 
-                                    <img
+                                    <Image
                                         width="284"
                                         height="177"
                                         src="https://www.kasradesign.com/wp-content/uploads/2017/11/image-moon.png"

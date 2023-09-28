@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const LestsTalk = () => {
@@ -6,7 +7,7 @@ const LestsTalk = () => {
             <section className="section-form">
                 <div className="shell">
                     <div className="section__image">
-                        <img
+                        <Image
                             width="545"
                             height="645"
                             src="https://www.kasradesign.com/wp-content/uploads/2017/11/monkey-astro-white-545x645.png"

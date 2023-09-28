@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const HomePageBanner = () => {
   return (
@@ -13,36 +14,40 @@ const HomePageBanner = () => {
               <div className="intro__head">
 
 
-                <div  className="intro__title">
+                <div className="intro__title">
                   <div className="intro__title-image">
-                    <img
+                    <Image
+                      width={155} height={150}
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-v.png"
                       alt="Letter V"
                     />
                   </div>
                   {/* <!-- /.intro__title-image --> */}
                   <div className="intro__title-image">
-                    <img
+                    <Image
+                   width={133} height={150}
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-d.jpg"
                       alt="Letter D"
                     />
                   </div>
                   {/* <!-- /.intro__title-image --> */}
                   <div className="intro__title-image">
-                    <img
+                    <Image
+                   width={90} height={150}
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-e.jpg"
                       alt="Letter E"
                     />
                   </div>
                   {/* <!-- /.intro__title-image --> */}
-                  <div  className="intro__title-image">
+                  <div style={{ border: '1px solid red' }}  className="intro__title-image">
                     <a
                       // href="//vimeo.com/764581583#s"
                       className="btn-video video-trigger "
                       data-wpel-link="external"
                       rel="nofollow external noopener noreferrer"
                     >
-                      <img
+                      <Image
+                      width={148} height={150}
                         src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-o.jpg"
                         alt="Letter O"
                       />
@@ -72,7 +77,8 @@ const HomePageBanner = () => {
                   'url(https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-home-overlay.png)',
               }}
             >
-              <img
+              <Image
+             
                 width="401"
                 height="590"
                 src="https://www.kasradesign.com/wp-content/uploads/2017/11/inro-home-main-img.png"
@@ -84,7 +90,7 @@ const HomePageBanner = () => {
                 sizes="(max-width: 401px) 100vw, 401px"
                 style={{ transform: 'translateY(0px)' }}
               />
-              <img
+              <Image
                 width="221"
                 height="325"
                 src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-mic.png"
@@ -100,7 +106,8 @@ const HomePageBanner = () => {
             {/* <!-- /.intro__body --> */}
             <h3 className="intro__subtitle visible-xs-block"></h3>
             {/* <!-- /.intro__subtitle --> */}
-            <img
+            <Image
+            style={{border:"1px solid red"}}
               width="73"
               height="65"
               src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-cameraman.png"
@@ -109,7 +116,7 @@ const HomePageBanner = () => {
               decoding="async"
               loading="lazy"
             />
-            <img
+            <Image
               width="73"
               height="137"
               src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-lady.png"
@@ -118,7 +125,7 @@ const HomePageBanner = () => {
               decoding="async"
               loading="lazy"
             />
-            <img
+            <Image
               width="55"
               height="61"
               src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-gay.png"
@@ -127,7 +134,7 @@ const HomePageBanner = () => {
               decoding="async"
               loading="lazy"
             />
-            <img
+            <Image
               width="174"
               height="155"
               src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-play.png"
@@ -145,4 +152,4 @@ const HomePageBanner = () => {
     </div>)
 }
 
-  export default HomePageBanner;
+export default HomePageBanner;

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const HomeIntro = () => {
@@ -25,7 +26,7 @@ const HomeIntro = () => {
         <div className="section__content-right" style={{ backgroundImage: 'url(https://www.kasradesign.com/wp-content/uploads/2017/11/space-bg.jpg)' }}>
           <div className="section__content-inner">
             <div className="section__floating">
-              <img
+              <Image
                 width="280"
                 height="567"
                 src="https://www.kasradesign.com/wp-content/uploads/2017/11/monkey-astro-big-280x567.png"

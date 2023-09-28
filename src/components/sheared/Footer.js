@@ -137,8 +137,11 @@ const Footer = () => {
                     <div class="list-icons">
                         <ul>
                             <li class="list-item-custom">
-                                <p><script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script></p>
-                                <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45" data-clutchcompany-id="25973"><iframe id="iframe-0.559118178156258" width="100%" src="https://widget.clutch.co/widgets/get/2?ref_domain=www.kasradesign.com&amp;uid=25973&amp;ref_path=/" height="45px" style={{border: "none", display: "block"}} title="Kasra Design Clutch Review Widget 2"></iframe></div>
+                                <p>
+                                    {/* <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js">
+                                    </script> */}
+                                </p>
+                                <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45" data-clutchcompany-id="25973"><iframe id="iframe-0.559118178156258" width="100%" src="https://widget.clutch.co/widgets/get/2?ref_domain=www.kasradesign.com&amp;uid=25973&amp;ref_path=/" height="45px" style={{ border: "none", display: "block" }} title="Kasra Design Clutch Review Widget 2"></iframe></div>
                             </li>
                         </ul>
                     </div>
