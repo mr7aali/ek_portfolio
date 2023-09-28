@@ -5,10 +5,18 @@ const NavBar = () => {
     const [applyStyle, setApplyStyle] = useState(false);
 
     useEffect(() => {
-        applyStyle ?
+        if (applyStyle) {
+
             document.body.classList.add("has-menu-opened")
-            :
+            document.getElementById("menu-item-1497").style.display = "none";
+            document.getElementById("menu-item-1524").style.display = ""
+        }
+        else {
             document.body.classList.remove("has-menu-opened")
+            document.getElementById("menu-item-1524").style.display = "none"
+            document.getElementById("menu-item-1497").style.display = "";
+        }
+
 
     }, [applyStyle]);
     return (
@@ -24,12 +32,15 @@ const NavBar = () => {
                     <div className="header__content">
                         <nav className="nav">
                             <ul id="menu-main-menu" className="menu">
-                                <li id="menu-item-1524" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1524">
-                                    <a href="https://www.kasradesign.com/service-we-offer/" data-wpel-link="internal">
+                                <li id="menu-item-1524" className="menu-item menu-item-type-post_type  menu-item-object-page menu-item-1524">
+                                    <a href="#" data-wpel-link="internal">
                                         Services
                                     </a></li>
 
-                                <li id="menu-item-1497" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1497"><a href="https://www.kasradesign.com/service-we-offer/" data-wpel-link="internal">Services</a>
+                                <li id="menu-item-1497" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1497">
+                                    <a href="#" data-wpel-link="internal">
+                                        Services
+                                    </a>
                                     <ul className="sub-menu">
                                         <li id="menu-item-1498" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1498"><a href="#" data-wpel-link="internal">Explainer Video</a></li>
                                         <li id="menu-item-2289" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289"><a href="#" data-wpel-link="internal">Animated Video</a></li>
@@ -53,7 +64,7 @@ const NavBar = () => {
                         </a>
                     </div>
 
-                    <a  href="#" className="nav-trigger" onClick={() => setApplyStyle(!applyStyle)}>
+                    <a href="#" className="nav-trigger" onClick={() => setApplyStyle(!applyStyle)}>
                         <span></span>
 
                         <span></span>

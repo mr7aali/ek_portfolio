@@ -59,6 +59,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block
 }
 
+
 html {
     tap-highlight-color: transparent
 }
@@ -5568,7 +5569,7 @@ body.admin-bar .header {
 
 .intro .btn-video {
     border-radius: 50%;
-    /* background: url(../images/letter-o-gradient.jpg) repeat-x; */
+    background: url(https://www.kasradesign.com/wp-content/themes/kasra-design/images/letter-o-gradient.jpg) repeat-x;
     position: relative;
     animation: animatedBackground 10s linear infinite paused
 }
@@ -9186,7 +9187,8 @@ body.has-menu-opened .nav-trigger span:nth-child(3) {
     mix-blend-mode: multiply;
     opacity: 0;
     transition: opacity .2s;
-    background: #fb575f
+    background: #fb575f;
+   
 }
 
 .section-module .section__video .video-trigger:hover {
@@ -11701,4 +11703,30 @@ a, button, input[type=submit], input[type=button] {
 .widget_categories .post-form {
     width: 100%;
     padding: 5px
+}
+
+
+
+
+
+.sub-menu {
+    width: 170px;
+}
+.nav ul li {
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 5px 11px;
+    position: relative;
+}
+ul.sub-menu {
+    width: 328px;
+    border-radius: 5px;
+    background: #e2e2e2 !important;
+}
+
+[class^=nav] > ul {
+    list-style: none;
+    font-size: 0;
+    line-height: 0;
 }

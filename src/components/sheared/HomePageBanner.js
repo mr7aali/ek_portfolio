@@ -13,7 +13,7 @@ const HomePageBanner = () => {
               <div className="intro__head">
 
 
-                <div className="intro__title">
+                <div  className="intro__title">
                   <div className="intro__title-image">
                     <img
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-v.png"
@@ -35,10 +35,10 @@ const HomePageBanner = () => {
                     />
                   </div>
                   {/* <!-- /.intro__title-image --> */}
-                  <div className="intro__title-image">
+                  <div  className="intro__title-image">
                     <a
                       // href="//vimeo.com/764581583#s"
-                      className="btn-video video-trigger"
+                      className="btn-video video-trigger "
                       data-wpel-link="external"
                       rel="nofollow external noopener noreferrer"
                     >
