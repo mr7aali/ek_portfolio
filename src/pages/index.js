@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import Navbar from '@/components/sheared/NavBar'
 import HomePageBanner from '@/components/sheared/HomePageBanner'
 import HomeIntro from '@/components/sheared/HomeIntro'
@@ -14,11 +13,12 @@ import Footer from '@/components/sheared/Footer'
 import { useState } from 'react'
 import VideoPlayModal from '@/components/sheared/VideoPlayModal'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   const [open, setOpen] = useState(false);
-  const [modalOpen, setModalOpen] = useState(true);
+  
+  // const [modalOpen, setModalOpen] = useState(true);
   return (
     <div>
       <Navbar />

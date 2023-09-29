@@ -5,7 +5,7 @@ import VideoPlayModal from "./VideoPlayModal";
 
 const HomePageBanner = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+
   return (
     <div>
       <section className="intro">
