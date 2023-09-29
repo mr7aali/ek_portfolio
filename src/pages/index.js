@@ -12,7 +12,7 @@ import LestsTalk from '@/components/sheared/LestsTalk'
 import FreequentlyAsked from '@/components/sheared/FreequentlyAsked'
 import Footer from '@/components/sheared/Footer'
 import { useState } from 'react'
-import VideoPlayModal from '@/components/sheared/Modal'
+import VideoPlayModal from '@/components/sheared/VideoPlayModal'
 
 const inter = Inter({ subsets: ['latin'] })
 

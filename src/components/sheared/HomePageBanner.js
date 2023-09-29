@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Modal from "./Modal";
+import Modal from "./VideoPlayModal";
 import { useState } from "react";
-import VideoPlayModal from "./Modal";
+import VideoPlayModal from "./VideoPlayModal";
 
 const HomePageBanner = () => {
   const [open, setOpen] = useState(false);
@@ -30,7 +30,7 @@ const HomePageBanner = () => {
                   {/* <!-- /.intro__title-image --> */}
                   <div className="intro__title-image">
                     <Image
-                   width={133} height={150}
+                      width={133} height={150}
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-d.jpg"
                       alt="Letter D"
                     />
@@ -38,8 +38,8 @@ const HomePageBanner = () => {
                   {/* <!-- /.intro__title-image --> */}
                   <div className="intro__title-image">
                     <Image
-                   
-                   width={90} height={150}
+
+                      width={90} height={150}
                       src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-e.jpg"
                       alt="Letter E"
                     />
@@ -47,8 +47,8 @@ const HomePageBanner = () => {
 
                   {/* onclick */}
                   {/*! <! -- /.intro__title-image --> */}
-                  <div  onClick={()=>setOpen(!open)}  style={{border:"1px solid red"}}   className="intro__title-image">
-                    
+                  <div onClick={() => setOpen(!open)} className="intro__title-image">
+
                     <a
                       // href="//vimeo.com/764581583#s"
                       className="btn-video video-trigger "
@@ -56,7 +56,7 @@ const HomePageBanner = () => {
                       rel="nofollow external noopener noreferrer"
                     >
                       <Image
-                      width={148} height={150}
+                        width={148} height={150}
                         src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/intro-letter-o.jpg"
                         alt="Letter O"
                       />
@@ -87,7 +87,7 @@ const HomePageBanner = () => {
               }}
             >
               <Image
-             
+
                 width="401"
                 height="590"
                 src="https://www.kasradesign.com/wp-content/uploads/2017/11/inro-home-main-img.png"
@@ -100,7 +100,7 @@ const HomePageBanner = () => {
                 style={{ transform: 'translateY(0px)' }}
               />
               <Image
-            
+
                 width="221"
                 height="325"
                 src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-mic.png"
@@ -117,7 +117,7 @@ const HomePageBanner = () => {
             <h3 className="intro__subtitle visible-xs-block"></h3>
             {/* <!-- /.intro__subtitle --> */}
             <Image
-            
+
               width="73"
               height="65"
               src="https://www.kasradesign.com/wp-content/uploads/2017/11/intro-home-cameraman.png"
@@ -159,7 +159,7 @@ const HomePageBanner = () => {
           {/* <!-- /.intro__content --> */}
         </div>
       </section>
-      <VideoPlayModal  open={open} setOpen={setOpen}/>
+      <VideoPlayModal open={open} setOpen={setOpen} />
     </div>)
 }
 
