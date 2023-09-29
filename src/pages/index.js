@@ -11,10 +11,14 @@ import ClintSectionWithSponsore from '@/components/sheared/ClintSectionWithSpons
 import LestsTalk from '@/components/sheared/LestsTalk'
 import FreequentlyAsked from '@/components/sheared/FreequentlyAsked'
 import Footer from '@/components/sheared/Footer'
+import { useState } from 'react'
+import VideoPlayModal from '@/components/sheared/Modal'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(true);
   return (
     <div>
       <Navbar />
@@ -28,6 +32,9 @@ export default function Home() {
       <LestsTalk/>
       <FreequentlyAsked/>
       <Footer/>
+      <VideoPlayModal  open={open} setOpen={setOpen}/>
+  
+  
     </div>
   )
 }
