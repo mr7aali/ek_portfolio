@@ -1,16 +1,11 @@
-// pages/api/upload-video.js
 
-import axios from "axios";
+import axios from 'axios';
+// import loadConfig from 'next/dist/server/config';
 
-
-
-const client_id = "d24dcaeb3dc88a2bf748989314a3e9965ebac644";
-const client_secret = "LYX3OrVeTeJUaw1Fc9jw55dHf0tcGBoh07RhUtZQ21YSvmIiyRRobtHIMONPWohrc0raQ82xyeynjvI9jU/loShYzYvVl0vmUtkdcMGodREL2EshTiLOOHaZWI5TMNk2";
-const VIMEO_ACCESS_TOKEN  = "1b752cd271c744ce41cb1537aa7de2d2";
+const VIMEO_ACCESS_TOKEN = 'fac63054257a6ba08e88dc133d0dfb03';
 const VIMEO_API_URL = 'https://api.vimeo.com/me/videos';
 
-
-const handler = async (req, res) => {
+const handler = async (req ,res) => {
   if (req.method === 'POST') {
     const size = req.body.size;
     const body = {
@@ -36,7 +31,7 @@ const handler = async (req, res) => {
       body,
       { headers }
     );
-
+   console.log(response);
     res.status(200).json(response.data);
   } else {
     res.status(403).json({ error: 'Not allowed method' });

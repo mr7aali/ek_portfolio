@@ -1,12 +1,18 @@
 import axios from 'axios';
 import * as tus from 'tus-js-client';
 
-export class MediaUploaderVimeo {
 
-  async upload(file, onProgress) {
-    const presignedLinkResponse = await axios.post('/api/vimeo', {
-      size: file.size,
-    });
+
+
+export  class MediaUploaderVimeo {
+  async upload(
+    file,
+    onProgress
+  ) {
+    const presignedLinkResponse =
+      await axios.post('/api/hello', {
+        size: file.size,
+      });
 
     const uploadURI = presignedLinkResponse.data.upload.upload_link;
     const vimeoVideoLink = presignedLinkResponse.data.uri;
@@ -24,7 +30,7 @@ export class MediaUploaderVimeo {
         },
         onSuccess: () => {
           resolve({
-            provider: "Vimeo",
+            provider: 'Vimeo',// MediaProvider.VIMEO,
             id: vimeoId,
           });
         },
@@ -34,4 +40,3 @@ export class MediaUploaderVimeo {
   }
 }
 
-// module.exports = MediaUploaderVimeo;

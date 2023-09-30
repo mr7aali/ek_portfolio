@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { MediaUploaderVimeo } from '../utils/media-uploader-vimeo';
+// import { MediaUploaderVimeo } from '../utils/media-uploader-vimeo';
 
 const MediaUploader = () => {
   const [file, setFile] = useState(null);
@@ -23,7 +24,6 @@ const MediaUploader = () => {
           if (file) {
             setProgress(0);
             setUploading(true);
-
             const uploader = new MediaUploaderVimeo();
             const videoMeta = await uploader.upload(
               file,

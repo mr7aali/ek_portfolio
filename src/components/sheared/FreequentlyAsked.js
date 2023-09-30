@@ -3,87 +3,87 @@ import React from 'react';
 
 const FreequentlyAsked = () => {
 	return (
-		<section class="section-accordion">
-			<div class="shell">
-				<div class="section__content">
-					<h5 class="h2">You might ask...</h5>
+		<section className="section-accordion">
+			<div className="shell">
+				<div className="section__content">
+					<h5 className="h2">You might ask...</h5>
 
-					<div class="accordion">
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">Why should I choose your team?</h6>
+					<div className="accordion">
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">Why should I choose your team?</h6>
 							</div>
 
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>We are committed to our customers, working in partnership with you to create high quality, bespoke content that fits your requirements precisely. We have made more than 400 videos for a large pool of reputable clients from almost any industry.</p>
 							</div>
 
 						</div>
 
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">How long does it take to deliver an explanatory video?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">How long does it take to deliver an explanatory video?</h6>
 							</div>
 
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>For a typical, 2D animation project we would expect to deliver within 4-5 weeks. However, this can depend on the swiftness of your notes and approvals. To get a better idea of how long it takes to produce your video, kindly get in touch with our team.</p>
 							</div>
 
 						</div>
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">What type of video style suits my business?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">What type of video style suits my business?</h6>
 							</div>
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>This depends on your tastes and requirements. Our creative team will work with you, listening to your needs and giving advice to find the best style for you and your business.</p>
 							</div>
 						</div>
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">What are the usual payment terms?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">What are the usual payment terms?</h6>
 							</div>
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>Our standard terms are as follows: 50% upfront and 50% upon completion.</p>
 							</div>
 						</div>
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">Can you speed up the video production process?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">Can you speed up the video production process?</h6>
 							</div>
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>Yes, we can! However, this requires us to prioritise our efforts towards your project, so a ‘rush fee’ may be incurred.</p>
 							</div>
 						</div>
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">What is your animated video production process like?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">What is your animated video production process like?</h6>
 							</div>
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>We work with you on Basecamp (a project management platform) and will keep you in the loop every step of the way. To learn more, we have a Process page dedicated for this.</p>
 							</div>
 						</div>
-						<div class="accordion__section">
-							<div class="accordion__head">
-								<h6 class="h3">Why custom videos are expensive?</h6>
+						<div className="accordion__section">
+							<div className="accordion__head">
+								<h6 className="h3">Why custom videos are expensive?</h6>
 							</div>
 
-							<div class="accordion__body" style={{display: "none"}}>
+							<div className="accordion__body" style={{display: "none"}}>
 								<p>To create custom video of a premium standard, it takes time, attention to detail and the expertise of an in-house team of talented artists. Unlike other industries, there is no shortcuts to cut down costs without affecting the quality.</p>
 							</div>
 						</div>
 					</div>
 
-					<a href="https://www.kasradesign.com/animated-video-production-process/" class="btn btn--gray" data-wpel-link="internal">Learn more about our process</a>
+					<a href="https://www.kasradesign.com/animated-video-production-process/" className="btn btn--gray" data-wpel-link="internal">Learn more about our process</a>
 				</div>
 
 
-				<div class="section__image">
+				<div className="section__image">
 
 
 					<Image

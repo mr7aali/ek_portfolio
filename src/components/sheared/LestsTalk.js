@@ -51,7 +51,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_1"
                                             className="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--text gfield--large"
-                                            data-field-class="gfield--text gfield--large"
+                                            data-field-className="gfield--text gfield--large"
                                             data-js-reload="field_1_1"
                                         >
                                             <label
@@ -82,7 +82,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_2"
                                             className="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--email gfield--large"
-                                            data-field-class="gfield--email gfield--large"
+                                            data-field-className="gfield--email gfield--large"
                                             data-js-reload="field_1_2"
                                         >
                                             <label
@@ -113,7 +113,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_3"
                                             className="gfield gfield--type-phone gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--phone gfield--large"
-                                            data-field-class="gfield--phone gfield--large"
+                                            data-field-className="gfield--phone gfield--large"
                                             data-js-reload="field_1_3"
                                         >
                                             <label
@@ -144,7 +144,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_4"
                                             className="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--text gfield--large"
-                                            data-field-class="gfield--text gfield--large"
+                                            data-field-className="gfield--text gfield--large"
                                             data-js-reload="field_1_4"
                                         >
                                             <label
@@ -175,7 +175,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_5"
                                             className="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--textarea gfield--medium"
-                                            data-field-class="gfield--textarea gfield--medium"
+                                            data-field-className="gfield--textarea gfield--medium"
                                             data-js-reload="field_1_5"
                                         >
                                             <label
@@ -206,7 +206,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_6"
                                             className="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--select gfield--large"
-                                            data-field-class="gfield--select gfield--large"
+                                            data-field-className="gfield--select gfield--large"
                                             data-js-reload="field_1_6"
                                         >
                                             <label
@@ -263,7 +263,7 @@ const LestsTalk = () => {
                                                             <input
                                                                 className="chosen-search-input"
                                                                 type="text"
-                                                                autocomplete="off"
+                                                                autoComplete="off"
                                                                 tabindex="6"
                                                             />
                                                         </div>
@@ -275,7 +275,7 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_7"
                                             className="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible gfield--honeypot gfield--"
-                                            data-field-class="gfield--honeypot gfield--"
+                                            data-field-className="gfield--honeypot gfield--"
                                             data-js-reload="field_1_7"
                                         >
                                             <label
@@ -310,7 +310,7 @@ const LestsTalk = () => {
                                         className="gform_button button"
                                         value="Send"
                                         tabindex="7"
-                                        onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "
+                                        onClick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "
                                         onKeyPress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"
                                     />{' '}
                                     <input
