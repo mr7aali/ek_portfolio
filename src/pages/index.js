@@ -1,4 +1,3 @@
-
 import Navbar from '@/components/sheared/NavBar'
 import HomePageBanner from '@/components/sheared/HomePageBanner'
 import HomeIntro from '@/components/sheared/HomeIntro'
@@ -12,15 +11,21 @@ import FreequentlyAsked from '@/components/sheared/FreequentlyAsked'
 import Footer from '@/components/sheared/Footer'
 import { useState } from 'react'
 import VideoPlayModal from '@/components/sheared/VideoPlayModal'
-
+import { useScroll, motion } from "framer-motion"
 
 
 export default function Home() {
   const [open, setOpen] = useState(false);
-  
-  // const [modalOpen, setModalOpen] = useState(true);
+  const { scrollYProgress } = useScroll();
+
   return (
+
     <div>
+      <motion.div
+        className="progress-bar"
+        style={{ border:'5px solid #ff0055',scaleX: scrollYProgress,zIndex:2000 }}  
+      />
+
       <Navbar />
       <HomePageBanner />
       <HomeIntro />
@@ -28,13 +33,13 @@ export default function Home() {
       <Description />
       <MoreVideoAdded />
       <ClintSection />
-      <ClintSectionWithSponsore/>
-      <LestsTalk/>
-      <FreequentlyAsked/>
-      <Footer/>
-      <VideoPlayModal  open={open} setOpen={setOpen}/>
-  
-  
+      <ClintSectionWithSponsore />
+      <LestsTalk />
+      <FreequentlyAsked />
+      <Footer />
+      <VideoPlayModal open={open} setOpen={setOpen} />
+
+
     </div>
   )
 }
