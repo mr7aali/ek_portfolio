@@ -3,7 +3,7 @@ import React from 'react';
 
 const ClintSection = () => {
     return (
-        <section className="section-clients">
+        <section   className="section-clients">
             <div className="shell">
                 <header className="section__head">
                     <h5 className="h2">Clients</h5>

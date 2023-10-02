@@ -3,7 +3,7 @@ import React from 'react';
 
 const Description = () => {
     return (
-        <section style={{border:'10px solid red'}} className="section-module section-module--features">
+        <section  className="section-module section-module--features">
             <div className="section-module__row">
                 <div className="section__content-left" style={{backgroundColor: "#383838", color: "#ffffff"}}>
                     <div className="section__content-inner">
