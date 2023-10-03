@@ -8,16 +8,18 @@ const MediaUploader = () => {
   const [progress, setProgress] = useState(0);
   const [isUploading, setUploading] = useState(false);
 
+
+ 
+
+  console.log(file);
   return (
     <>
       <input
         type='file'
         accept='video/*'
-        onChange={(e) => {
-          if (e.target.files) {
-            setFile(e.target.files[0] || "");
-          }
-        }}
+       onChange={(e) => {if (e.target.files) {setFile(e.target.files[0]);  }}}
+        
+       
       />
       <button
         disabled={!file}

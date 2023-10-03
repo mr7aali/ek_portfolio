@@ -70,7 +70,8 @@ const LestsTalk = () => {
                                                     name="input_1"
                                                     id="input_1_1"
                                                     type="text"
-                                                    value=""
+                                                  //!value=""
+                                                  
                                                     className="large"
                                                     tabIndex="1"
                                                     placeholder="Name"
@@ -101,7 +102,7 @@ const LestsTalk = () => {
                                                     name="input_2"
                                                     id="input_1_2"
                                                     type="text"
-                                                    value=""
+                                //!value=""
                                                     className="large"
                                                     tabIndex="2"
                                                     placeholder="Email (Official)"
@@ -132,7 +133,7 @@ const LestsTalk = () => {
                                                     name="input_3"
                                                     id="input_1_3"
                                                     type="text"
-                                                    value=""
+                                //!value=""
                                                     className="large"
                                                     tabIndex="3"
                                                     placeholder="Phone"
@@ -163,7 +164,7 @@ const LestsTalk = () => {
                                                     name="input_4"
                                                     id="input_1_4"
                                                     type="text"
-                                                    value=""
+                                //!value=""
                                                     className="large"
                                                     tabIndex="4"
                                                     placeholder="Website"
@@ -233,7 +234,7 @@ const LestsTalk = () => {
                                                     style={{ display: 'none' }}
                                                 >
                                                     <option
-                                                        value=""
+                                                   //!     value=""
                                                         selected="selected"
                                                         className="gf_placeholder"
                                                     >
@@ -292,7 +293,7 @@ const LestsTalk = () => {
                                                     name="input_7"
                                                     id="input_1_7"
                                                     type="text"
-                                                    value=""
+                                                  //!  value=""
                                                 />
                                             </div>
                                             <div
@@ -314,7 +315,7 @@ const LestsTalk = () => {
                                         value="Send"
                                         tabIndex="7"
                                       //  !   onClick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "
-                                    //  !   onKeyPress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"
+                                        onKeyPress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"
                                     />{' '}
                                     <input
                                         type="hidden"
@@ -337,7 +338,7 @@ const LestsTalk = () => {
                                         type="hidden"
                                         className="gform_hidden"
                                         name="gform_unique_id"
-                                        value=""
+                                    //!    value=""
                                     />
                                     <input
                                         type="hidden"
@@ -362,7 +363,7 @@ const LestsTalk = () => {
                                     <input
                                         type="hidden"
                                         name="gform_field_values"
-                                        value=""
+                                   //!     value=""
                                     />
                                 </div>
                                 <p style={{ display: 'none !important' }}>

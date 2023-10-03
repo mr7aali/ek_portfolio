@@ -33,19 +33,19 @@ export default function Home() {
       <NavBar />
       <HomePageBanner />
       <HomeIntro />
-      <MixedProject />
-      <Description />
-      <MoreVideoAdded />
-      <ClintSection />
-      <ClintSectionWithSponsore />
-      <LestsTalk />
-      <div style={{border:"1px solid red"}} className="h-[31px]">
-
-      </div>
-      <LetsTalk2/>
-      <FreequentlyAsked />
-      <Footer />
-      <VideoPlayModal open={open} setOpen={setOpen} />
+        <MixedProject />
+        <Description />
+        <MoreVideoAdded />
+        <ClintSection />
+        <ClintSectionWithSponsore />
+        {/* <LestsTalk />   */}
+                   {/* /this component has some error */}
+        <div style={{border:"1px solid red"}} className="h-[31px]">
+        </div>
+        <LetsTalk2/>  
+        <FreequentlyAsked />
+        <Footer />
+        <VideoPlayModal open={open} setOpen={setOpen} />
 
 
     </div>
