@@ -1,17 +1,20 @@
-import Navbar from '@/components/sheared/NavBar'
-import HomePageBanner from '@/components/sheared/HomePageBanner'
-import HomeIntro from '@/components/sheared/HomeIntro'
-import MixedProject from '@/components/sheared/MixedProject'
-import Description from '@/components/sheared/Description'
-import MoreVideoAdded from '@/components/sheared/MoreVideoAdded'
-import ClintSection from '@/components/sheared/ClintSection'
-import ClintSectionWithSponsore from '@/components/sheared/ClintSectionWithSponsore'
-import LestsTalk from '@/components/sheared/LestsTalk'
-import FreequentlyAsked from '@/components/sheared/FreequentlyAsked'
-import Footer from '@/components/sheared/Footer'
-import { useState } from 'react'
-import VideoPlayModal from '@/components/sheared/VideoPlayModal'
-import { useScroll, motion } from "framer-motion"
+import ClintSection from "@/components/HomePage/ClintSection";
+import ClintSectionWithSponsore from "@/components/HomePage/ClintSectionWithSponsore";
+import Description from "@/components/HomePage/Description";
+import FreequentlyAsked from "@/components/HomePage/FreequentlyAsked";
+import HomeIntro from "@/components/HomePage/HomeIntro";
+import HomePageBanner from "@/components/HomePage/HomePageBanner";
+import LestsTalk from "@/components/HomePage/LestsTalk";
+import LetsTalk2 from "@/components/HomePage/LestsTalk2";
+import MixedProject from "@/components/HomePage/MixedProject";
+import MoreVideoAdded from "@/components/HomePage/MoreVideoAdded";
+import VideoPlayModal from "@/components/HomePage/VideoPlayModal";
+import Footer from "@/components/sheared/Footer";
+import HeadTag from "@/components/sheared/HeadTag";
+import NavBar from "@/components/sheared/NavBar";
+import { motion, useScroll } from "framer-motion";
+import { useState } from "react";
+
 
 
 export default function Home() {
@@ -21,12 +24,13 @@ export default function Home() {
   return (
 
     <div>
+      <HeadTag title={'Home'} descriptionContent={"Tech products home page"} />
       <motion.div
         className="progress-bar"
-        style={{ border:'5px solid #ff0055',scaleX: scrollYProgress,zIndex:2000 }}  
+        style={{ border: '5px solid #ff0055', scaleX: scrollYProgress, zIndex: 2000 }}
       />
 
-      <Navbar />
+      <NavBar />
       <HomePageBanner />
       <HomeIntro />
       <MixedProject />
@@ -35,6 +39,10 @@ export default function Home() {
       <ClintSection />
       <ClintSectionWithSponsore />
       <LestsTalk />
+      <div style={{border:"1px solid red"}} className="h-[31px]">
+
+      </div>
+      <LetsTalk2/>
       <FreequentlyAsked />
       <Footer />
       <VideoPlayModal open={open} setOpen={setOpen} />

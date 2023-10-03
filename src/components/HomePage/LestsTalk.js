@@ -51,12 +51,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_1"
                                             className="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--text gfield--large"
-                                            data-field-className="gfield--text gfield--large"
+                                            data-field-classname="gfield--text gfield--large"
                                             data-js-reload="field_1_1"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_1"
+                                                htmlFor="input_1_1"
                                             >
                                                 Name
                                                 <span className="gfield_required">
@@ -72,7 +72,7 @@ const LestsTalk = () => {
                                                     type="text"
                                                     value=""
                                                     className="large"
-                                                    tabindex="1"
+                                                    tabIndex="1"
                                                     placeholder="Name"
                                                     aria-required="true"
                                                     aria-invalid="false"
@@ -82,12 +82,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_2"
                                             className="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--email gfield--large"
-                                            data-field-className="gfield--email gfield--large"
+                                            data-field-classname="gfield--email gfield--large"
                                             data-js-reload="field_1_2"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_2"
+                                                htmlFor="input_1_2"
                                             >
                                                 Email
                                                 <span className="gfield_required">
@@ -103,7 +103,7 @@ const LestsTalk = () => {
                                                     type="text"
                                                     value=""
                                                     className="large"
-                                                    tabindex="2"
+                                                    tabIndex="2"
                                                     placeholder="Email (Official)"
                                                     aria-required="true"
                                                     aria-invalid="false"
@@ -113,12 +113,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_3"
                                             className="gfield gfield--type-phone gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--phone gfield--large"
-                                            data-field-className="gfield--phone gfield--large"
+                                            data-field-classname="gfield--phone gfield--large"
                                             data-js-reload="field_1_3"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_3"
+                                                htmlFor="input_1_3"
                                             >
                                                 Phone
                                                 <span className="gfield_required">
@@ -134,7 +134,7 @@ const LestsTalk = () => {
                                                     type="text"
                                                     value=""
                                                     className="large"
-                                                    tabindex="3"
+                                                    tabIndex="3"
                                                     placeholder="Phone"
                                                     aria-required="true"
                                                     aria-invalid="false"
@@ -144,12 +144,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_4"
                                             className="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--text gfield--large"
-                                            data-field-className="gfield--text gfield--large"
+                                            data-field-classname="gfield--text gfield--large"
                                             data-js-reload="field_1_4"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_4"
+                                                htmlFor="input_1_4"
                                             >
                                                 Website
                                                 <span className="gfield_required">
@@ -165,7 +165,7 @@ const LestsTalk = () => {
                                                     type="text"
                                                     value=""
                                                     className="large"
-                                                    tabindex="4"
+                                                    tabIndex="4"
                                                     placeholder="Website"
                                                     aria-required="true"
                                                     aria-invalid="false"
@@ -175,12 +175,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_5"
                                             className="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--textarea gfield--medium"
-                                            data-field-className="gfield--textarea gfield--medium"
+                                            data-field-classname="gfield--textarea gfield--medium"
                                             data-js-reload="field_1_5"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_5"
+                                                htmlFor="input_1_5"
                                             >
                                                 Message
                                                 <span className="gfield_required">
@@ -194,7 +194,7 @@ const LestsTalk = () => {
                                                     name="input_5"
                                                     id="input_1_5"
                                                     className="textarea medium"
-                                                    tabindex="5"
+                                                    tabIndex="5"
                                                     placeholder="Please explain about your project, what style of video you like, video length and required turnaround time."
                                                     aria-required="true"
                                                     aria-invalid="false"
@@ -206,12 +206,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_6"
                                             className="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible gfield--select gfield--large"
-                                            data-field-className="gfield--select gfield--large"
+                                            data-field-classname="gfield--select gfield--large"
                                             data-js-reload="field_1_6"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_6"
+                                                htmlFor="input_1_6"
                                             >
                                                 Choose a budget
                                                 <span className="gfield_required">
@@ -221,11 +221,13 @@ const LestsTalk = () => {
                                                 </span>
                                             </label>
                                             <div className="ginput_container ginput_container_select">
+                                           
+                                           
                                                 <select
                                                     name="input_6"
                                                     id="input_1_6"
                                                     className="large gfield_select"
-                                                    tabindex="-1"
+                                                    tabIndex="-1"
                                                     aria-required="true"
                                                     aria-invalid="false"
                                                     style={{ display: 'none' }}
@@ -246,6 +248,7 @@ const LestsTalk = () => {
                                                     </option>
                                                     <option value="> Please advise"> Please advise</option>
                                                 </select>
+                                                
                                                 <div
                                                     className="chosen-container chosen-container-single"
                                                     title=""
@@ -264,7 +267,7 @@ const LestsTalk = () => {
                                                                 className="chosen-search-input"
                                                                 type="text"
                                                                 autoComplete="off"
-                                                                tabindex="6"
+                                                                tabIndex="6"
                                                             />
                                                         </div>
                                                         <ul className="chosen-results"></ul>
@@ -275,12 +278,12 @@ const LestsTalk = () => {
                                         <li
                                             id="field_1_7"
                                             className="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible gfield--honeypot gfield--"
-                                            data-field-className="gfield--honeypot gfield--"
+                                            data-field-classname="gfield--honeypot gfield--"
                                             data-js-reload="field_1_7"
                                         >
                                             <label
                                                 className="gfield_label gform-field-label"
-                                                for="input_1_7"
+                                                htmlFor="input_1_7"
                                             >
                                                 Comments
                                             </label>
@@ -309,9 +312,9 @@ const LestsTalk = () => {
                                         id="gform_submit_button_1"
                                         className="gform_button button"
                                         value="Send"
-                                        tabindex="7"
-                                        onClick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "
-                                        onKeyPress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"
+                                        tabIndex="7"
+                                      //  !   onClick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "
+                                    //  !   onKeyPress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"
                                     />{' '}
                                     <input
                                         type="hidden"

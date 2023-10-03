@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { MediaUploaderVimeo } from '../utils/media-uploader-vimeo';
-// import { MediaUploaderVimeo } from '../utils/media-uploader-vimeo';
+
+
 
 const MediaUploader = () => {
   const [file, setFile] = useState(null);
@@ -14,7 +15,7 @@ const MediaUploader = () => {
         accept='video/*'
         onChange={(e) => {
           if (e.target.files) {
-            setFile(e.target.files[0]);
+            setFile(e.target.files[0] || "");
           }
         }}
       />
