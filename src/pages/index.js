@@ -36,7 +36,7 @@ export default function Home() {
       <HomeIntro />
       <MixedProject />
       <Description />
-      <MoreVideoAdded />
+      <MoreVideoAdded  open={open} setOpen={setOpen}/>
       <ClintSection />
       <ClintSectionWithSponsore />
       {/* <LestsTalk />   */}

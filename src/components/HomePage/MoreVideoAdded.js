@@ -1,12 +1,12 @@
 // import Link from "next/link";
+import { useState } from "react";
 import { ProjectBgImageAndVideoLink } from "../constant/constant";
 
 
 
-
-const Project = ({ bgImage, projectLink }) => {
+const Project = ({ bgImage, projectLink, open, setOpen }) => {
   return (
-    <div className="grid-item">
+    <div onClick={() => setOpen(!open)} className="grid-item">
       <div className="grid-item__image" style={{ backgroundImage: `url(${bgImage})` }}>
         <a href={projectLink} className="video-trigger" data-wpel-link="external" rel="nofollow external noopener noreferrer"></a>
       </div>
@@ -14,7 +14,7 @@ const Project = ({ bgImage, projectLink }) => {
   )
 }
 
-const MoreVideoAdded = () => {
+const MoreVideoAdded = ({ open, setOpen }) => {
   return (
     <section className="section-grid">
       <header className="section__head">
@@ -35,7 +35,14 @@ const MoreVideoAdded = () => {
       <div className="section__body">
         <div className="grid grid--small">
           {
-            ProjectBgImageAndVideoLink.map((p, index) => <Project key={index} bgImage={p.bgImage} projectLink={p.projectLink} />)
+            ProjectBgImageAndVideoLink.map((p, index) => <Project
+              key={index}
+              bgImage={p.bgImage}
+              projectLink={p.projectLink}
+              open={open}
+              setOpen={setOpen}
+
+            />)
           }
 
         </div>
