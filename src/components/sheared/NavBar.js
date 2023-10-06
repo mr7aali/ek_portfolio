@@ -3,9 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const NavBar = () => {
-
     const [applyStyle, setApplyStyle] = useState(false);
-
     useEffect(() => {
         if (applyStyle) {
 
@@ -18,9 +16,15 @@ const NavBar = () => {
             document.getElementById("menu-item-1524").style.display = "none"
             document.getElementById("menu-item-1497").style.display = "";
         }
-
-
     }, [applyStyle]);
+
+    const ServiceSubMenuItem = ["Animated Video", "Motion Graphics", "Corporate Video", "Business Video", "Video Production", "Whiteboard Animation"];
+    const ServiceSubMenuContaint = ServiceSubMenuItem.map(service =>
+        <li key={service}
+            className="menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="#" data-wpel-link="internal">{service}</a>
+        </li>
+    )
     return (
         // page-template page-template-templates page-template-inner-page page-template-templatesinner-page-php page page-id-1510 page-loaded has-menu-opened
         <div >
@@ -44,13 +48,7 @@ const NavBar = () => {
                                         Services
                                     </a>
                                     <ul className="sub-menu">
-                                        <li id="menu-item-1498" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1498"><a href="#" data-wpel-link="internal">Explainer Video</a></li>
-                                        <li id="menu-item-2289" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289"><a href="#" data-wpel-link="internal">Animated Video</a></li>
-                                        <li id="menu-item-2409" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="#" data-wpel-link="internal">Motion Graphics</a></li>
-                                        <li id="menu-item-1499" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"><a href="#" data-wpel-link="internal">Corporate Video</a></li>
-                                        <li id="menu-item-2290" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2290"><a href="#" data-wpel-link="internal">Business Video</a></li>
-                                        <li id="menu-item-1500" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1500"><a href="#" data-wpel-link="internal">Video Production</a></li>
-                                        <li id="menu-item-2423" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2423"><a href="#" data-wpel-link="internal">Whiteboard Animation</a></li>
+                                        {ServiceSubMenuContaint}
                                     </ul>
                                 </li>
 

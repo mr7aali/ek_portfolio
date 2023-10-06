@@ -33,7 +33,8 @@ const VideoPlayModal = ({
                       src="//player.vimeo.com/video/764581583#s?autoplay=1"
                       __idm_id__="344079"
                     ></iframe> */}
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/__44lBX9trk?si=Rnha49CiwZEB6hN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WtgW0-4cX_U?si=t6GmaTO2DCkxxBTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     
                   </div>
                 </div>
