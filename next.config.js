@@ -8,7 +8,8 @@ const nextConfig = {
         hostname: "www.kasradesign.com"
       }
     ]
-  }
+  },
+  
 }
 
 module.exports = nextConfig
