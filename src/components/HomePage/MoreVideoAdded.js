@@ -8,7 +8,12 @@ const Project = ({ bgImage, projectLink, open, setOpen }) => {
   return (
     <div onClick={() => setOpen(!open)} className="grid-item">
       <div className="grid-item__image" style={{ backgroundImage: `url(${bgImage})` }}>
-        <a href={projectLink} className="video-trigger" data-wpel-link="external" rel="nofollow external noopener noreferrer"></a>
+        <a
+          // href={projectLink}
+          className="video-trigger"
+          data-wpel-link="external"
+          rel="nofollow external noopener noreferrer"
+        ></a>
       </div>
     </div>
   )
@@ -51,7 +56,7 @@ const MoreVideoAdded = ({ open, setOpen }) => {
 
 
       <div className="section__actions">
-        <a href="https://www.kasradesign.com/portfolio/" className="btn btn--red" data-wpel-link="internal">Check  our entire portfolio</a>
+        <a href="https://www.facebook.com/mr07aali/" className="btn btn--red" data-wpel-link="internal">Check  our entire portfolio</a>
       </div>
     </section>
   );

@@ -33,8 +33,10 @@ export default function Home() {
 
       <NavBar />
       <HomePageBanner />
-
       <HomeIntro />
+
+
+      
       <MixedProject />
       <Description />
       <MoreVideoAdded  open={open} setOpen={setOpen}/>

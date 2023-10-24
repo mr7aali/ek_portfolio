@@ -2,7 +2,7 @@ import Modal from "@mui/material/Modal";
 
 const VideoPlayModal = ({
   open,
-  book,
+
   setOpen,
 }) => {
   

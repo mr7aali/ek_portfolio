@@ -1,7 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const HomeIntro = () => {
+
+  const porfolioListTitle = ["Explainer Videos", "Healthcare Videos", "Motion graphics", "Corporate Videos", "3D Animation"]
   return (
     <section className="section-module">
       <div className="section-module__row">
@@ -19,10 +22,8 @@ const HomeIntro = () => {
               <a href="https://www.kasradesign.com/awards-nominations-featured/" data-wpel-link="internal">award-winning team</a> of artists and animators will collaborate with you every step of the way to meet and exceed your expectation.
             </p>
             <p>&nbsp;</p>
-          </div>
-          {/* /.section__content-inner */}
+          </div>       
         </div>
-        {/* /.section__content-let */}
         <div className="section__content-right" style={{ backgroundImage: 'url(https://www.kasradesign.com/wp-content/uploads/2017/11/space-bg.jpg)' }}>
           <div className="section__content-inner">
             <div className="section__floating">
@@ -39,42 +40,21 @@ const HomeIntro = () => {
               />
               <div className="list-portfolio">
                 <ul>
-                  <li>
-                    <a href="https://www.kasradesign.com/explainer-video-production/" data-wpel-link="internal">
-                      Explainer Videos
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.kasradesign.com/healthcare-video-production/" data-wpel-link="internal">
-                      Healthcare Videos
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.kasradesign.com/motion-graphics-production/" data-wpel-link="internal">
-                      Motion graphics
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.kasradesign.com/corporate-video-production/" data-wpel-link="internal">
-                      Corporate Videos
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.kasradesign.com/3d-animation/" data-wpel-link="internal">
-                      3D Animation
-                    </a>
-                  </li>
+                  {
+                    porfolioListTitle.map(title => (
+                      <li key={title}>
+                        <Link href="" data-wpel-link="internal">
+                          {title}
+                        </Link>
+                      </li>
+                    ))
+                  }
                 </ul>
               </div>
-              {/* /.list-portfolio */}
             </div>
-            {/* /.section__floating */}
           </div>
-          {/* /.section__content-inner */}
         </div>
-        {/* /.section__content-right */}
       </div>
-      {/* /.section-module__row */}
     </section>
   );
 };
