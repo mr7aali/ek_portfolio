@@ -30,7 +30,7 @@ const NavBar = () => {
         <div >
             <header className="header">
                 <div className="shell">
-                    <Link href="https://www.kasradesign.com/" className="logo " alt="Kasra Design">
+                    <Link href="/" className="logo " alt="Kasra Design">
                         <Image width={130} height={47} src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/kesradesign-logo.svg" title="Kasra Design: Animated Explainer Video Company" alt="Kasra Design" />
                         <Image width={130} height={47} src="https://www.kasradesign.com/wp-content/themes/kasra-design/images/kesradesign-logo-white.svg" title="Kasra Design: Animated Explainer Video Company" alt="Kasra Design" />
                     </Link>

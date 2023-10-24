@@ -1882,11 +1882,11 @@ body.show-nav-main .btn-menu span:after {
 }
 
 .mfp-fade.mfp-wrap .mfp-close {
-    display: inline-block;
+    /* display: inline-block; */
     width: 48px;
     height: 48px;
     /* background: url(../images/ico-close.png) center no-repeat #498cf3; */
-    background: pink;
+    /* background: pink; */
     opacity: 1;
     background-size: 30px;
     top: -48px;
@@ -1895,7 +1895,7 @@ body.show-nav-main .btn-menu span:after {
 }
 
 .mfp-fade.mfp-wrap .mfp-close:hover {
-    background-color: #fc585f
+    /* background-color: #fc585f */
 }
 
 .mfp-content {

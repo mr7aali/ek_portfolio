@@ -33,12 +33,16 @@ export default function Home() {
 
       <NavBar />
       <HomePageBanner />
+
       <HomeIntro />
       <MixedProject />
       <Description />
       <MoreVideoAdded  open={open} setOpen={setOpen}/>
       <ClintSection />
       <ClintSectionWithSponsore />
+
+
+
       {/* <LestsTalk />   */}
       {/* /this component has some error */}
       <div style={{ border: "1px solid red" }} className="h-[31px]">
