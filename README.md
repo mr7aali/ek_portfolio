@@ -24,9 +24,11 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-# 🎬 Kasra Desi Clone – Creative Video Showcase Website
+# 🎬 Kasra Design Clone – Creative Video Showcase Website
 
 This project is a **frontend clone** of [Kasra Design](https://www.kasradesign.com/), built with modern tools and animations to deliver a visually engaging experience. It showcases a **video portfolio** using the **YouTube API** for dynamic video loading and playback.
+🚀 **Live Demo:**  
+👉 [https://ek-portfolio-te2r.vercel.app/](https://ek-portfolio-te2r.vercel.app/)
 
 ---
 
@@ -51,7 +53,7 @@ This project is a **frontend clone** of [Kasra Design](https://www.kasradesign.c
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone to learn, not to earn.
 
 ```bash
 git clone https://github.com/mr7aali/ek_portfolio.git
