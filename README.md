@@ -24,17 +24,36 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# 🎬 Kasra Desi Clone – Creative Video Showcase Website
 
-To learn more about Next.js, take a look at the following resources:
+This project is a **frontend clone** of [Kasra Design](https://www.kasradesign.com/), built with modern tools and animations to deliver a visually engaging experience. It showcases a **video portfolio** using the **YouTube API** for dynamic video loading and playback.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ✨ Features
 
-## Deploy on Vercel
+- 💡 **Responsive & Modern Design** – Cloned from Kasra Design for aesthetic learning purposes
+- ⚡ **Built with Next.js** – Fast performance and server-side rendering
+- 🎨 **Tailwind CSS** – Utility-first styling with custom animation effects
+- 🎞️ **YouTube API Integration** – Watch videos directly from YouTube with embedded controls
+- 🌀 **Smooth Animations** – Entrance transitions, hover effects, and responsive layouts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔧 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **Video Integration:** [YouTube Data API v3](https://developers.google.com/youtube/v3)
+- **Animation:** CSS/JS-based transitions & framer-motion
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mr7aali/ek_portfolio.git
+cd kasra-clone
+```
